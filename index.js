@@ -22,7 +22,6 @@ app.get("/dashboard", async (req, res) => {
   res.render("dashboard.njk", data);
 });
 
-
 app.listen(port, () => {
   console.log(`YouNote App running at http://localhost:${port}/`);
 });
